@@ -1,6 +1,4 @@
 # local.pac
-Proxy Auto Configuration file.
-
 Modified Proxy Auto Configuration (PAC) file from antizapret.prostovpn.org with redirect to your own local proxy. PAC file automatically updated every 8h.
 
 Permanent links:
