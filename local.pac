@@ -4661,7 +4661,7 @@ function FindProxyForURL(url, host) {
   shost = shost.replace(/^www.(.+)/, "$1");
  
  // List of domains to which access from Russia is prohibited or restricted
- ru_lst = ['monotypefonts.com','snbforums.com','community.cisco.com','badoo.com','spotify.com','bumble.com','airbnb.com','splunk.com','flxvpn.net','netflix.com','netflixdnstest*.com','netflixinvestor.com','netflixstudios.com','netflixtechblog.com','nflx*.com','nflx*.net','tmdb.org','themoviedb.org','thwack.solarwinds.com','whatismybrowser.com','redis.com','rdm.dev','resp.app','bthub.io','clamav.net','intel.com','stackify.com','securitytrails.com','virtuozzo.com'];
+ ru_lst = ['adafruit.com','airbnb.com','analog.com','api.themoviedb.org','badoo.com','bthub.io','bumble.com','centr.org','clamav.net','community.cisco.com','crunchbase.com','dell.com','download.lenovo.com','image.tmdb.org','intel.com','jsfiddle.net','mattermost.com','maximintegrated.com','mogenius.com','monotypefonts.com','myfonts.com','netflix.com','nxp.com','qualcomm.com','redis.com','resp.app','securitytrails.com','setapp.com','skysilk.com','smartbear.com','snbforums.com','splunk.com','spotify.com','stackify.com','templatemonster.com','thwack.solarwinds.com','tvideocardz.com','virtuozzo.com','vpnunlimited.com','vyos.io','weather.com','whatismybrowser.com','wunderground.com'];
  if (ru_lst.indexOf(shost) !== -1) {return "PROXY 127.0.0.1:1080; DIRECT;"}
 
 
