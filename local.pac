@@ -4661,7 +4661,7 @@ function FindProxyForURL(url, host) {
   shost = shost.replace(/^www.(.+)/, "$1");
  
  // List of domains to which access from Russia is prohibited or restricted
- ru_lst = ['adafruit.com','airbnb.com','analog.com','api.themoviedb.org','badoo.com','bthub.io','bumble.com','centr.org','clamav.net','community.cisco.com','crunchbase.com','dell.com','download.lenovo.com','image.tmdb.org','intel.com','jsfiddle.net','mattermost.com','maximintegrated.com','mogenius.com','monotypefonts.com','myfonts.com','netflix.com','nxp.com','qualcomm.com','redis.com','resp.app','securitytrails.com','setapp.com','skysilk.com','smartbear.com','snbforums.com','splunk.com','spotify.com','stackify.com','templatemonster.com','thwack.solarwinds.com','tvideocardz.com','virtuozzo.com','vpnunlimited.com','vyos.io','weather.com','whatismybrowser.com','wunderground.com'];
+ ru_lst = ['adafruit.com','airbnb.com','analog.com','api.themoviedb.org','badoo.com','bthub.io','bumble.com','centr.org','clamav.net','community.cisco.com','crunchbase.com','*.dell.com','download.lenovo.com','image.tmdb.org','intel.com','jsfiddle.net','mattermost.com','maximintegrated.com','mogenius.com','monotypefonts.com','myfonts.com','netflix.com','nxp.com','qualcomm.com','redis.com','resp.app','securitytrails.com','setapp.com','skysilk.com','smartbear.com','snbforums.com','splunk.com','spotify.com','stackify.com','templatemonster.com','thwack.solarwinds.com','tvideocardz.com','virtuozzo.com','vpnunlimited.com','vyos.io','weather.com','whatismybrowser.com','wunderground.com'];
  if (ru_lst.indexOf(shost) !== -1) {return "PROXY 127.0.0.1:1080; DIRECT;"}
 
 
