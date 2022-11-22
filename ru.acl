@@ -1,9 +1,0 @@
-#
-# GFW list from https://github.com/gfwlist/gfwlist/blob/master/gfwlist.txt
-#
-
-[bypass_all]
-
-[proxy_list]
-(?:^|\.)2ip\.ru$
-(?:^|\.)whatismybrowser\.com$
