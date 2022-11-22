@@ -3,6 +3,6 @@
 #
 
 [bypass_all]
+(?:^|\.)2ip\.ru$
 
 [proxy_list]
-(?:^|\.)2ip\.ru$
