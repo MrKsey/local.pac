@@ -926,7 +926,7 @@ function FindProxyForURL(url, host) {
           'facebook.com', 'fbcdn.net',
           'instagram.com', 'cdninstagram.com',
           'fb.com', 'messenger.com',
-          'yt3.ggpht.com', '2ip.ru', 'airbnb.com', 'analog.com', 'bing.com', 'bosch-home.com', 'browserleaks.com', 'bthub.io', 'chatgpt.com', 'cisco.com', 'clamav.net', 'community.cisco.com', 'customerportal.solarwinds.com', 'documentation.solarwinds.com', 'githubusercontent.com', 'googleapis.com', 'googlevideo.com', 'gstatic.com', 'gvt1.com', 'imagetmdb.com', 'image.tmdb.org', 'intel.com', 'netflix.com', 'news.google.com', 'oaistatic.com', 'openai.com', 'openwrt.org', 'reddit.com', 'redis.com', 'snbforums.com', 'soap4.me', 'solarwinds.com', 'splunk.com', 'spotify.com', 'static.solarwinds.com', 'suggestqueries.google.com', 'support.solarwinds.com', 'themoviedb.org', 'thwack.solarwinds.com', 'tmdb-image-prod.b-cdn.net', 'tmdb.org', 'whatismybrowser.com', 'youtu.be', 'youtube.com', 'ytimg.com'
+          'yt3.ggpht.com', 'cisco.com', 'solarwinds.com', 'googleapis.com', 'googlevideo.com', 'gstatic.com', 'gvt1.com', 'intel.com', 'reddit.com', 'snbforums.com', 'youtu.be', 'youtube.com', 'ytimg.com'
           ];
   if (fbtw.indexOf(shost) !== -1) {
     return "PROXY 127.0.0.1:1080; DIRECT";
