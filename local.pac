@@ -926,7 +926,7 @@ function FindProxyForURL(url, host) {
           'facebook.com', 'fbcdn.net',
           'instagram.com', 'cdninstagram.com',
           'fb.com', 'messenger.com',
-          'yt3.ggpht.com', 'snbforums.com'
+          'yt3.ggpht.com'
           ];
   if (fbtw.indexOf(shost) !== -1) {
     return "PROXY 127.0.0.1:1080; DIRECT";
